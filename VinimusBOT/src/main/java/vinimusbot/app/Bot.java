@@ -11,7 +11,7 @@ public class Bot extends ListenerAdapter
     public static void main( String[] args ) throws LoginException
     {
         JDABuilder builder = JDABuilder
-        		.createDefault("ODEwNDY2NTg3Njg0ODk2Nzkw.YCkD1A.W5xqwfShVpw0H3LS_gL_Rdc72mk");
+        		.createDefault("TOKEN"); //need to change to private repo to show token, will be in bot channel
         JDA jda = builder
         		.addEventListeners(new Bot())
         		.build();
